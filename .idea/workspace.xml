@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ishop/core" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Xy19xMY74kPxPceYCyrGorVjfC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\errors" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="" />
+      <created>1582003372307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582003372307</updated>
+      <workItem from="1582003373567" duration="1006000" />
+      <workItem from="1582004797407" duration="22319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582014635936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582014635936" />
+    <state x="1139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582029131328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582029131328" />
+    <state x="1170" y="256" key="FileChooserDialogImpl" timestamp="1582022585259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582022585259" />
+    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582029449154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582029449154" />
+    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582025135095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582025135095" />
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582004797905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582004797905" />
+    <state x="161" y="651" key="save.file.as.template.dialog" timestamp="1582016366132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="161" y="651" key="save.file.as.template.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582016366132" />
+  </component>
+</project>
