@@ -11,5 +11,10 @@
 <body>
 <h1> Default layout</h1>
 <h1><?=$content; ?></h1>
+<?php $logs = \R :: getDatabaseAdapter ()
+-> getDatabase ()
+-> getLogger ();
+
+debug( $logs -> grep ( 'SELECT' ) ); ?>
 </body>
 </html>

@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="" />
+    <list default="true" id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ishop2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ishop2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/PageController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/TSingletone.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/TSingletone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/View.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -20,13 +38,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/ishop/core" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Xy19xMY74kPxPceYCyrGorVjfC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,9 +63,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\errors" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\web\css" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\errors" />
       <recent name="C:\xampp\htdocs\laravel\ishop2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\images" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\web\css" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -68,7 +98,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582003372307</updated>
       <workItem from="1582003373567" duration="1006000" />
-      <workItem from="1582004797407" duration="22319000" />
+      <workItem from="1582004797407" duration="22629000" />
+      <workItem from="1582082280165" duration="20784000" />
+      <workItem from="1582112844244" duration="967000" />
     </task>
     <servers />
   </component>
@@ -76,30 +108,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582014635936">
+    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582083788436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582014635936" />
+    <state x="828" y="313" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582083788436" />
     <state x="1139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582029131328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582029131328" />
-    <state x="1170" y="256" key="FileChooserDialogImpl" timestamp="1582022585259">
+    <state x="1170" y="256" key="FileChooserDialogImpl" timestamp="1582103660333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582022585259" />
-    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582029449154">
+    <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582103660333" />
+    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582086597930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582029449154" />
-    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582025135095">
+    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582086597930" />
+    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582088567950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582025135095" />
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582004797905">
+    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582088567950" />
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582112859000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582004797905" />
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582112859000" />
+    <state x="662" y="252" width="595" height="536" key="find.popup" timestamp="1582089373471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="595" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582089373471" />
     <state x="161" y="651" key="save.file.as.template.dialog" timestamp="1582016366132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
