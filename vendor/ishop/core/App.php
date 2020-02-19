@@ -17,13 +17,14 @@ class App
         $this->getParams();
         new ErrorHandler();
         Router::dispatch($query);
+
     }
 
     protected function getParams(){
         $params = require_once CONF . '/params.php';
         if (!empty($params)){
             foreach ($params as $k => $v) {
-                self::$app = Registry::setProperty($k, $v);
+                self::$app->setProperty($k, $v);
 
             }
         }

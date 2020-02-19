@@ -17,9 +17,10 @@ class MainController extends AppController
         //$posts = \R::findOne('test', 'id = ?', [2]);
         //debug($posts);
         $brands = \R::find('brand','LIMIT 3');
+        $hits = \R::find('product', 'hit = "1" AND status = "1" LIMIT 8');
         //debug($brands);
         $this->setMeta('Главная', 'Описание', 'Ключи');
-        $this->set(compact('brands'));
+        $this->set(compact('brands', 'hits'));
 //        $name = 'Andrey';
 //        $names = ['Andrey', 'John', 'Mali'];
 //        $age = 32;

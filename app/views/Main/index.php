@@ -41,27 +41,33 @@
 <!--about-end-->
 <!--about-end-->
 <!--product-starts-->
-
+<?php if ($hits):?>
 <div class="product">
     <div class="container">
         <div class="product-top">
             <div class="product-one">
+                <?php foreach ($hits as $hit):?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/images/p-1.png" alt="" /></a>
+                        <a href="product/<?=$hit->alias?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?=$hit->img?>" alt="" /></a>
                         <div class="product-bottom">
-                            <h3>Smart Watches</h3>
+                            <h3><a href="product/<?=$hit->alias?>"><?=$hit->title?></a></h3>
                             <p>Explore Now</p>
-                            <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                            <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id?>"><i></i></a> <span class=" item_price">$ <?=$hit->price?></span>
+
+                                <small><del><?php if ($hit->old_price > 0) {?> <?=$hit->old_price?><?php };?></del></small>
+                            </h4>
                         </div>
                         <div class="srch">
                             <span>-50%</span>
                         </div>
                     </div>
                 </div>
+                <?php endforeach;?>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
+<?php endif;?>
 <!--product-end-->
