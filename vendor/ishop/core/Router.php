@@ -89,8 +89,5 @@ class Router
                 return '';
             }
         }
-
     }
-
-
 }

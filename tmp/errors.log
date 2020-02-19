@@ -814,3 +814,99 @@
 [2020-02-19 13:06:03] Текст ошибки: Страница не найдена | \
         Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
 ==============
+[2020-02-19 13:13:35] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:13:35] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:14:26] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:16:49] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:16:54] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:16:57] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:19:27] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:19:32] Текст ошибки: Контроллер app\controllers\CartController не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-02-19 13:19:34] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:20:29] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:21:21] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:21:21] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:21:25] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:21:34] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:28:46] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:31:23] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\views\Main\index.php | Строка: 66 
+==============
+[2020-02-19 13:31:55] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:32:54] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:33:58] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:34:01] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:34:08] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:34:50] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:34:53] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:35:47] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:37:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY  DESC  -- keep-cache' at line 1 | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-19 13:37:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC  -- keep-cache' at line 1 | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-19 13:53:29] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 13:55:11] Текст ошибки: Call to a member function setProperty() on null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\AppController.php | Строка: 18 
+==============
+[2020-02-19 14:06:12] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 14:07:11] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 14:08:59] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-19 14:09:03] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
