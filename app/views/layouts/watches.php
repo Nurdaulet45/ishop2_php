@@ -34,10 +34,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-md-6 top-header-left">
                 <div class="drop">
                     <div class="box">
-                        <select tabindex="4" class="dropdown drop">
-                            <option value="" class="label">Dollar :</option>
-                            <option value="1">Dollar</option>
-                            <option value="2">Euro</option>
+                        <select id="currency" tabindex="4" class="dropdown drop">
+                            <?php new \app\widgets\currency\Currency();?>
                         </select>
                     </div>
                     <div class="box1">
@@ -78,7 +76,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="header">
             <div class="col-md-9 header-left">
                 <div class="top-nav">
-                    <ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+                    <div class="menu">
+                        <?php new \app\widgets\menu\Menu([
+                            'tpl' => WWW . '/menu/menu.php',
+                            /*'table' => 'test',*/
+                            'container' => 'ul'
+                        ]);?>
+                    </div>
+                    <!--<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
                         <li class="grid"><a href="#">Men</a>
                             <div class="mepanel">
                                 <div class="row">
@@ -212,7 +217,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </li>
                         <li class="grid"><a href="contact.html">Contact</a>
                         </li>
-                    </ul>
+                    </ul>-->
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -315,6 +320,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     });
 </script>
+<script src="/js/main.js"></script>
+
 <!--End-slider-script-->
 <!--footer-end-->
 </body>

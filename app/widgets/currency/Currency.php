@@ -4,6 +4,8 @@
 namespace app\widgets\currency;
 
 
+use ishop\App;
+
 class Currency
 {
     protected $tpl;
@@ -17,7 +19,9 @@ class Currency
     }
 
     public function run(){
-
+        $this->currencies = App::$app->getProperty('currencies');
+        $this->currency = App::$app->getProperty('currency');
+        echo $this->getHtml();
     }
 
     public static function getCurrencies(){
@@ -26,11 +30,22 @@ class Currency
 
     }
 
-    public static function getCurrency(){
+    public static function getCurrency($currency){
+        if (isset($_COOKIE['currency']) && array_key_exists($_COOKIE['currency'], $currency)){
+
+            $key = $_COOKIE['currency'];
+        } else {
+            $key = key($currency);
+        }
+        $currency = $currency[$key];
+        $currency['code'] = $key;
+        return $currency;
 
     }
 
     public function getHtml(){
-
+        ob_start();
+        require_once $this->tpl;
+        return ob_get_clean();
     }
 }
