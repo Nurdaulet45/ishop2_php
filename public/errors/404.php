@@ -28,7 +28,7 @@ Author URL: http://w3layouts.com
                 <p>You can either return to the previous page, visit our homepage or contact our support team.</p>
                 <!-- buttons -->
                 <div class="buttons">
-                    <a href="index.html" class="btn brk-btn-bg brk-btn">
+                    <a href="../index.html" class="btn brk-btn-bg brk-btn">
                         Go to Homepage
                     </a>
                     <a href="<?=PATH;?>" class="btn brk-btn">
