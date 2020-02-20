@@ -42,6 +42,7 @@
 <!--about-end-->
 <!--product-starts-->
 <?php if ($hits):?>
+<?php $curr = \ishop\App::$app->getProperty('currency'); /*debug($curr);*/?>
 <div class="product">
     <div class="container">
         <div class="product-top">
@@ -49,13 +50,19 @@
                 <?php foreach ($hits as $hit):?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="product/<?=$hit->alias?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?=$hit->img?>" alt="" /></a>
+                        <a href="product/<?=$hit->alias?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?=$hit->img;?>" alt="" /></a>
                         <div class="product-bottom">
-                            <h3><a href="product/<?=$hit->alias?>"><?=$hit->title?></a></h3>
+                            <h3><a href="product/<?=$hit->alias;?>"><?=$hit->title;?></a></h3>
                             <p>Explore Now</p>
-                            <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id?>"><i></i></a> <span class=" item_price">$ <?=$hit->price?></span>
+                            <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id;?>"><i></i></a>
+                                <span class=" item_price"><?=$curr['symbol_left'];?>
+                                    <?=$hit->price * $curr['value'];?> <?=$curr['symbol_right'];?></span>
 
-                                <small><del><?php if ($hit->old_price > 0) {?> <?=$hit->old_price?><?php };?></del></small>
+                                <small>
+                                    <del>
+                                        <?php if ($hit->old_price > 0) {?> <?=$curr['symbol_left'];?>
+                                            <?=$hit->old_price* $curr['value'];?> <?=$curr['symbol_right'];?><?php };?>
+                                    </del></small>
                             </h4>
                         </div>
                         <div class="srch">
