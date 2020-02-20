@@ -1,34 +1,6 @@
- phpMyAdmin SQL Dump
--- version 4.7.3
--- https://www.phpmyadmin.net/
---
--- Хост: 127.0.0.1:3306
--- Время создания: Сен 14 2018 г., 21:18
--- Версия сервера: 5.6.37
--- Версия PHP: 7.1.7
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- База данных: `ishop2`
---
-
--- --------------------------------------------------------
-
---
--- Структура таблицы `attribute_group`
---
-
-CREATE TABLE `attribute_group` (
+CREATE TABLE `ishop2`.`attribute_group` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -37,7 +9,7 @@ CREATE TABLE `attribute_group` (
 -- Дамп данных таблицы `attribute_group`
 --
 
-INSERT INTO `attribute_group` (`id`, `title`) VALUES
+INSERT INTO `ishop2`.`attribute_group` (`id`, `title`) VALUES
 (1, 'Все товары'),
 (2, 'Стекло'),
 (3, 'Ремешок'),
@@ -52,7 +24,7 @@ INSERT INTO `attribute_group` (`id`, `title`) VALUES
 -- Структура таблицы `attribute_product`
 --
 
-CREATE TABLE `attribute_product` (
+CREATE TABLE `ishop2`.`attribute_product` (
   `attr_id` int(10) UNSIGNED NOT NULL,
   `product_id` int(11) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -61,7 +33,7 @@ CREATE TABLE `attribute_product` (
 -- Дамп данных таблицы `attribute_product`
 --
 
-INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
+INSERT INTO `ishop2`.`attribute_product` (`attr_id`, `product_id`) VALUES
 (8, 1),
 (8, 8),
 (12, 2),
@@ -97,7 +69,7 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 -- Структура таблицы `attribute_value`
 --
 
-CREATE TABLE `attribute_value` (
+CREATE TABLE `ishop2`.`attribute_value` (
   `id` int(10) UNSIGNED NOT NULL,
   `value` varchar(255) NOT NULL,
   `attr_group_id` int(10) UNSIGNED NOT NULL
@@ -107,7 +79,7 @@ CREATE TABLE `attribute_value` (
 -- Дамп данных таблицы `attribute_value`
 --
 
-INSERT INTO `attribute_value` (`id`, `value`, `attr_group_id`) VALUES
+INSERT INTO `ishop2`.`attribute_value` (`id`, `value`, `attr_group_id`) VALUES
 (1, 'Все товары', 1),
 (5, 'Сапфировое', 2),
 (6, 'Минеральное', 2),
@@ -134,7 +106,7 @@ INSERT INTO `attribute_value` (`id`, `value`, `attr_group_id`) VALUES
 -- Структура таблицы `brand`
 --
 
-CREATE TABLE `brand` (
+CREATE TABLE `ishop2`.`brand` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
@@ -146,7 +118,7 @@ CREATE TABLE `brand` (
 -- Дамп данных таблицы `brand`
 --
 
-INSERT INTO `brand` (`id`, `title`, `alias`, `img`, `description`) VALUES
+INSERT INTO `ishop2`.`brand` (`id`, `title`, `alias`, `img`, `description`) VALUES
 (1, 'Casio', 'casio', 'abt-1.jpg', 'описание первого бренда'),
 (2, 'Citizen', 'citizen', 'abt-2.jpg', 'описание первого бренда 22'),
 (3, 'Royal London', 'royal-london', 'abt-3.jpg', 'описание первого бренда 33'),
@@ -159,7 +131,7 @@ INSERT INTO `brand` (`id`, `title`, `alias`, `img`, `description`) VALUES
 -- Структура таблицы `category`
 --
 
-CREATE TABLE `category` (
+CREATE TABLE `ishop2`.`category` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
@@ -172,10 +144,10 @@ CREATE TABLE `category` (
 -- Дамп данных таблицы `category`
 --
 
-INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `description`) VALUES
-(1, 'Men', 'men', 23, 'Men', 'Men'),
-(2, 'Women', 'women', 23, 'Women', 'Women'),
-(3, 'Kids', 'kids', 23, 'Kids', 'Kids'),
+INSERT INTO `ishop2`.`category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `description`) VALUES
+(1, 'Men', 'men', 0, 'Men', 'Men'),
+(2, 'Women', 'women', 0, 'Women', 'Women'),
+(3, 'Kids', 'kids', 0, 'Kids', 'Kids'),
 (4, 'Электронные', 'elektronnye', 1, 'Электронные', 'Электронные'),
 (5, 'Механические', 'mehanicheskie', 1, 'mehanicheskie', 'mehanicheskie'),
 (6, 'Casio', 'casio', 4, 'Casio', 'Casio'),
@@ -187,13 +159,6 @@ INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `descri
 (12, 'Механические', 'mehanicheskie-12', 2, 'Механические', 'Механические'),
 (13, 'Adriatica', 'adriatica', 11, 'Adriatica', 'Adriatica'),
 (14, 'Anne Klein', 'anne-klein', 12, 'Anne Klein', 'Anne Klein'),
-(17, 'заметки', 'zametki', 0, '', ''),
-(18, 'makaraxc', 'makaraxc', 17, 'article', 'заметки от продвинутого пользователя'),
-(19, 'semalyur', 'semalyur', 17, 'article, semalyur', 'звметки от semalyur'),
-(20, 'В доме', 'v-dome', 0, '', ''),
-(21, 'шнуры', 'shnury', 20, '', ''),
-(22, 'закладки', 'zakladki', 19, '', ''),
-(23, 'Часы', 'chasy', 0, '', '');
 
 -- --------------------------------------------------------
 
@@ -201,7 +166,7 @@ INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `descri
 -- Структура таблицы `currency`
 --
 
-CREATE TABLE `currency` (
+CREATE TABLE `ishop2`.`currency` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(50) NOT NULL,
   `code` varchar(3) NOT NULL,
@@ -215,7 +180,7 @@ CREATE TABLE `currency` (
 -- Дамп данных таблицы `currency`
 --
 
-INSERT INTO `currency` (`id`, `title`, `code`, `symbol_left`, `symbol_right`, `value`, `base`) VALUES
+INSERT INTO `ishop2`.`currency` (`id`, `title`, `code`, `symbol_left`, `symbol_right`, `value`, `base`) VALUES
 (1, 'гривна', 'UAH', '', ' грн.', 25.80, '0'),
 (2, 'доллар', 'USD', '$ ', '', 1.00, '1'),
 (3, 'Евро', 'EUR', '€ ', '', 0.88, '0'),
@@ -228,7 +193,7 @@ INSERT INTO `currency` (`id`, `title`, `code`, `symbol_left`, `symbol_right`, `v
 -- Структура таблицы `gallery`
 --
 
-CREATE TABLE `gallery` (
+CREATE TABLE `ishop2`.`gallery` (
   `id` int(10) UNSIGNED NOT NULL,
   `product_id` int(10) UNSIGNED NOT NULL,
   `img` varchar(255) NOT NULL
@@ -238,7 +203,7 @@ CREATE TABLE `gallery` (
 -- Дамп данных таблицы `gallery`
 --
 
-INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
+INSERT INTO `ishop2`.`gallery` (`id`, `product_id`, `img`) VALUES
 (59, 28, 'fd2b512cae1737c33cddbb7f1e77db85.jpg'),
 (60, 28, '6c598ee695771b7e0f6f5e7f96860f0d.jpg'),
 (61, 28, 'c70473697b8842acd00293b022232f6f.jpg'),
@@ -297,7 +262,7 @@ INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
 -- Структура таблицы `modification`
 --
 
-CREATE TABLE `modification` (
+CREATE TABLE `ishop2`.`modification` (
   `id` int(10) UNSIGNED NOT NULL,
   `product_id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
@@ -308,7 +273,7 @@ CREATE TABLE `modification` (
 -- Дамп данных таблицы `modification`
 --
 
-INSERT INTO `modification` (`id`, `product_id`, `title`, `price`) VALUES
+INSERT INTO `ishop2`.`modification` (`id`, `product_id`, `title`, `price`) VALUES
 (1, 1, 'Silver', 300),
 (2, 1, 'Black', 300),
 (3, 1, 'Dark Black', 305),
@@ -322,7 +287,7 @@ INSERT INTO `modification` (`id`, `product_id`, `title`, `price`) VALUES
 -- Структура таблицы `order`
 --
 
-CREATE TABLE `order` (
+CREATE TABLE `ishop2`.`order` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(10) UNSIGNED NOT NULL,
   `status` enum('0','1') NOT NULL DEFAULT '0',
@@ -336,7 +301,7 @@ CREATE TABLE `order` (
 -- Дамп данных таблицы `order`
 --
 
-INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
+INSERT INTO `ishop2`.`order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
 (6, 9, '1', '2018-08-01 19:06:56', '2018-08-03 04:21:21', 'USD', ''),
 (7, 9, '1', '2018-08-01 19:12:29', '2018-08-02 05:38:44', 'USD', ''),
 (8, 9, '1', '2018-08-01 19:12:42', '2018-08-03 04:24:14', 'USD', ''),
@@ -364,7 +329,7 @@ INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`,
 -- Структура таблицы `order_product`
 --
 
-CREATE TABLE `order_product` (
+CREATE TABLE `ishop2`.`order_product` (
   `id` int(10) UNSIGNED NOT NULL,
   `order_id` int(10) UNSIGNED NOT NULL,
   `product_id` int(10) UNSIGNED NOT NULL,
@@ -377,7 +342,7 @@ CREATE TABLE `order_product` (
 -- Дамп данных таблицы `order_product`
 --
 
-INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
+INSERT INTO `ishop2`.`order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
 (19, 6, 1, 1, 'Casio MRP-700-1AVEF', 300),
 (20, 6, 2, 1, 'Casio MQ-24-7BUL', 70),
 (21, 6, 3, 1, 'Casio GA-1000-1AER', 400),
@@ -437,8 +402,13 @@ INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `pr
 (75, 25, 3, 2, 'Casio GA-1000-1AER', 400),
 (76, 25, 7, 1, 'Q&Q Q956J302Y', 20);
 
+-- --------------------------------------------------------
 
-CREATE TABLE `product` (
+--
+-- Структура таблицы `product`
+--
+
+CREATE TABLE `ishop2`.`product` (
   `id` int(10) UNSIGNED NOT NULL,
   `category_id` tinyint(3) UNSIGNED NOT NULL,
   `brand_id` tinyint(3) UNSIGNED NOT NULL,
@@ -458,7 +428,7 @@ CREATE TABLE `product` (
 -- Дамп данных таблицы `product`
 --
 
-INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
+INSERT INTO `ishop2`.`product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
 (1, 6, 1, 'Casio MRP-700-1AVEF', 'casio-mrp-700-1avef', '', 300, 0, '1', '', '', 'p-1.png', '0'),
 (2, 6, 1, 'Casio MQ-24-7BUL', 'casio-mq-24-7bul', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.</p>\r\n\r\n<p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex. Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non malesuada sem accumsan in. Morbi vel sodales libero.</p>\r\n', 70, 80, '1', '', '', 'p-2.png', '1'),
 (3, 6, 1, 'Casio GA-1000-1AER', 'casio-ga-1000-1aer', '', 400, 0, '1', '', '', 'p-3.png', '1'),
@@ -510,7 +480,7 @@ INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `conte
 -- Структура таблицы `related_product`
 --
 
-CREATE TABLE `related_product` (
+CREATE TABLE `ishop2`.`related_product` (
   `product_id` int(10) UNSIGNED NOT NULL,
   `related_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -519,7 +489,7 @@ CREATE TABLE `related_product` (
 -- Дамп данных таблицы `related_product`
 --
 
-INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
+INSERT INTO `ishop2`.`related_product` (`product_id`, `related_id`) VALUES
 (1, 2),
 (2, 10),
 (5, 1),
@@ -532,7 +502,7 @@ INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
 -- Структура таблицы `user`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE `ishop2`.`user` (
   `id` int(10) UNSIGNED NOT NULL,
   `login` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
@@ -546,7 +516,7 @@ CREATE TABLE `user` (
 -- Дамп данных таблицы `user`
 --
 
-INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
+INSERT INTO `ishop2`.`user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
 (1, 'semens', '$2y$10$S4aZxUS29g0Ik/IoZwCnHOC.HE6G02T6XFQwEWS/nZoNHIebnPcHe', 'zelir68@mail.ru', 'ALEKSANDR SEMENOV', 'Ул. Солдата Корзуна 20-75, 75', 'user'),
 (9, 'admin', '$2y$10$fQJwf5hN0H9qgQEdZ0/a3uOWiThpPOcRVtUmN.fzxRVDt5EcnAFgC', 'admin@ishop2.loc', 'admin', 'siti1', 'admin'),
 (10, 'user5', '$2y$10$7GGnotlB.0e4viJC4WZb/.nIJ5IsPMHz2i.iZVRKpBv2C3b4N8Uei', 'semalyur2004@mail.ru', 'user5', 'siti1', 'admin'),

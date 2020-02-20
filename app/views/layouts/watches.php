@@ -9,20 +9,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <?=$this->getMeta();?>
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
     <script src="/js/jquery-1.11.0.min.js"></script>
     <!--Custom-Theme-files-->
     <!--theme-style-->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!--start-menu-->
     <script src="/js/simpleCart.min.js"> </script>
-    <link href="/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-    <script type="text/javascript" src="js/memenu.js"></script>
-    <script>$(document).ready(function(){$(".memenu").memenu();});</script>
     <!--dropdown-->
     <script src="/js/jquery.easydropdown.js"></script>
 </head>
@@ -51,7 +50,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
+                    <a href="../../../public/checkout.html">
                         <div class="total">
                             <span class="simpleCart_total"></span></div>
                         <img src="/images/cart-1.png" alt="" />
@@ -67,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--top-header-->
 <!--start-logo-->
 <div class="logo">
-    <a href="index.html"><h1>Luxury Watches</h1></a>
+    <a href="../../../public/index.html"><h1>Luxury Watches</h1></a>
 </div>
 <!--start-logo-->
 <!--bottom-header-->
@@ -76,12 +75,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="header">
             <div class="col-md-9 header-left">
                 <div class="top-nav">
-                    <div class="menu">
-                        <?php new \app\widgets\menu\Menu([
-                            'tpl' => WWW . '/menu/menu.php',
-                            /*'table' => 'test',*/
-                            'container' => 'ul'
-                        ]);?>
+                    <div class="menu-container">
+                        <div class="menu">
+                            <?php new \app\widgets\menu\Menu([
+                                'tpl' => WWW . '/menu/menu.php',
+                            ]);?>
+                        </div>
                     </div>
                     <!--<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
                         <li class="grid"><a href="#">Men</a>
@@ -253,14 +252,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <li><a href="#"><p>Specials</p></a></li>
                     <li><a href="#"><p>New Products</p></a></li>
                     <li><a href="#"><p>Our Stores</p></a></li>
-                    <li><a href="contact.html"><p>Contact Us</p></a></li>
+                    <li><a href="../../../public/contact.html"><p>Contact Us</p></a></li>
                     <li><a href="#"><p>Top Sellers</p></a></li>
                 </ul>
             </div>
             <div class="col-md-3 infor-left">
                 <h3>My Account</h3>
                 <ul>
-                    <li><a href="account.html"><p>My Account</p></a></li>
+                    <li><a href="../../../public/account.html"><p>My Account</p></a></li>
                     <li><a href="#"><p>My Credit slips</p></a></li>
                     <li><a href="#"><p>My Merchandise returns</p></a></li>
                     <li><a href="#"><p>My Personal info</p></a></li>
@@ -321,6 +320,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     });
 </script>
 <script src="/js/main.js"></script>
+<script src="/megamenu/js/megamenu.js"></script>
 
 <!--End-slider-script-->
 <!--footer-end-->

@@ -13,6 +13,7 @@ class Menu
     protected $tree;
     protected $menuHtml;
     protected $tpl;
+    protected $class = 'menu';
     protected $container = 'ul';
     protected $table = 'category';
     protected $cache = 3600;
@@ -46,13 +47,27 @@ class Menu
                 $this->data = $cats = \R::getAssoc("SELECT * FROM {$this->table}");
             }
             $this->tree = $this->getTree();
-            debug($this->tree);
+            $this->menuHtml = self::getMenuHtml($this->tree);
+            if ($this->cache){
+                $cache->set($this->cacheKey, $this->menuHtml, $this->cache);
+            }
+            //debug($this->tree);
         }
         $this->output();
     }
 
     protected function output(){
-        echo $this->menuHtml;
+        $attrs = '';
+
+        if (!empty($this->attrs)){
+            foreach ($this->attrs as $k => $v) {
+                $attrs .= " $k='$v' ";
+            }
+        }
+        echo "<{$this->container} class = '{$this->class}'  $attrs>";
+            echo $this->prepend;
+            echo $this->menuHtml;
+        echo "</{$this->container}>";
     }
 
     protected function getTree(){
@@ -60,11 +75,10 @@ class Menu
         $data = $this->data;
         foreach ($data as $id => &$node) {
             if (!$node['parent_id']){
-                debug($node);
                 $tree[$id] = &$node;
-
             } else {
                 $data[$node['parent_id']]['childs'][$id] = &$node;
+                //debug($data);
             }
         }
         return $tree;
