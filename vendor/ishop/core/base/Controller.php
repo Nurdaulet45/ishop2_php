@@ -6,7 +6,6 @@ namespace ishop\base;
 
 abstract class Controller
 {
-
     public $route;
     public $controller;
     public $model;
@@ -26,8 +25,8 @@ abstract class Controller
 
     }
 
-    public function getView(){
-
+    public function getView()
+    {
         $viewObject = new View($this->route, $this->layout, $this->view, $this->meta);
         $viewObject->render($this->data);
     }
@@ -36,7 +35,8 @@ abstract class Controller
         $this->data = $data;
     }
 
-    public function setMeta($title = '', $desc = '', $keywords = ''){
+    public function setMeta($title = '', $desc = '', $keywords = '')
+    {
         $this->meta['title'] = $title;
         $this->meta['desc'] = $desc;
         $this->meta['keywords'] = $keywords;
