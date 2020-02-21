@@ -3,22 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/widgets/menu/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/menu/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dum_sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dum_sql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/errors/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/errors/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/menu/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/typo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/typo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +50,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/menu/menu_tpl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\ishop2\config" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\megamenu-js-master" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\fonts" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\menu\menu_tpl" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\images" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\web\css" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\megamenu-js-master" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\fonts" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\css" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\js" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -104,6 +96,12 @@
       <workItem from="1582082280165" duration="20784000" />
       <workItem from="1582112844244" duration="5212000" />
       <workItem from="1582168685601" duration="26285000" />
+      <workItem from="1582201160060" duration="248000" />
+      <workItem from="1582255502429" duration="1877000" />
+      <workItem from="1582257399852" duration="1799000" />
+      <workItem from="1582259221605" duration="1388000" />
+      <workItem from="1582261381237" duration="53000" />
+      <workItem from="1582261442754" duration="7651000" />
     </task>
     <servers />
   </component>
@@ -127,18 +125,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582178350689" />
-    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582174459517">
+    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582265600319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582174459517" />
-    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582176851052">
+    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582265600319" />
+    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582256494343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582176851052" />
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582201159614">
+    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582256494343" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582261433644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582201159614" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582261433644" />
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582261443369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582261443369" />
     <state x="662" y="252" width="607" height="536" key="find.popup" timestamp="1582181137953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,5 +149,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="161" y="651" key="save.file.as.template.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582016366132" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/Product/view.php</url>
+          <line>134</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
