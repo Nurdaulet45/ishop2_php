@@ -39,7 +39,6 @@
 </div>
 <?php endif;?>
 <!--about-end-->
-<!--about-end-->
 <!--product-starts-->
 <?php if ($hits):?>
 <?php $curr = \ishop\App::$app->getProperty('currency'); /*debug($curr);*/?>
