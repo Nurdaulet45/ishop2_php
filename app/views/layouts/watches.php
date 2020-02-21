@@ -165,6 +165,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 
 <!--Slider-Starts-Here-->
+
+<?php $curr = \ishop\App::$app->getProperty('currency');?>
+<script>
+    var path = '<?=PATH;?>',
+        course = '<?=$curr['value'];?>',
+        symbolLeft = '<?=$curr['symbol_left'];?>',
+        symbolRight = '<?=$curr['symbol_right'];?>';
+</script>
 <script src="/js/responsiveslides.min.js"></script>
 <script>
     // You can also use "$(window).load(function() {"

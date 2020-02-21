@@ -2,8 +2,7 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="<?=PATH;?>">Home</a></li>
-                <li class="active">Single</li>
+                <?=$breadcrumbs;?>
             </ol>
         </div>
     </div>
@@ -54,7 +53,7 @@
                                 <div class="clearfix"> </div>
                             </div>
 
-                            <h5 class="item_price"><?=$curr['symbol_left'];?>
+                            <h5 class="item_price" id="base-price" data-base="<?=$product->price * $curr['value'];?>"><?=$curr['symbol_left'];?>
                                 <?=$product->price * $curr['value'];?> <?=$curr['symbol_right'];?></h5>
                                 <?php if ($product->old_price):?>
                                     <del>
@@ -67,24 +66,22 @@
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
+                                            <option>Выбрать цвет:</option>
+                                            <?php foreach ($mods as $mod):?>
+                                            <option data-title="<?=$mod->title;?>"
+                                                    data-price="<?=$mod->price * $curr['value'];?>"
+                                                    value="<?=$mod->id;?>">
+                                                <?=$mod->title?>
+                                            </option>
+                                            <?php endforeach;?>
+
                                         </select></li>
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
                             <ul class="tag-men">
                                 <li><span>Category</span>
-                                    <span class="women1">: <a href="/category/<?=$cats[$product->category_id]['alias'];?>"><?=$cats[$product->category_id]['title'];?></a></span></li>
+                                    <span >: <a href="/category/<?=$cats[$product->category_id]['alias'];?>"><?=$cats[$product->category_id]['title'];?></a></span></li>
                             </ul>
                             <div class="quantity" style="margin-top: 30px;">
                                 <input type="number" value="1" min="1" step="1" size="4" name="quantity">
@@ -97,33 +94,33 @@
                 </div>
                 <div class="tabs">
                     <ul class="menu_drop">
-                        <li class="item1"><a href="#"><img src="../app/views/web/images/arrow.png" alt="">Description</a>
+                        <li class="item1"><a href="#"><img src="/images/arrow.png" alt="">Description</a>
                             <ul>
                                 <li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</a></li>
                                 <li class="subitem2"><a href="#"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</a></li>
                                 <li class="subitem3"><a href="#">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes </a></li>
                             </ul>
                         </li>
-                        <li class="item2"><a href="#"><img src="../app/views/web/images/arrow.png" alt="">Additional information</a>
+                        <li class="item2"><a href="#"><img src="/images/arrow.png" alt="">Additional information</a>
                             <ul>
                                 <li class="subitem2"><a href="#"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</a></li>
                                 <li class="subitem3"><a href="#">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes </a></li>
                             </ul>
                         </li>
-                        <li class="item3"><a href="#"><img src="../app/views/web/images/arrow.png" alt="">Reviews (10)</a>
+                        <li class="item3"><a href="#"><img src="/images/arrow.png" alt="">Reviews (10)</a>
                             <ul>
                                 <li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</a></li>
                                 <li class="subitem2"><a href="#"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</a></li>
                                 <li class="subitem3"><a href="#">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes </a></li>
                             </ul>
                         </li>
-                        <li class="item4"><a href="#"><img src="../app/views/web/images/arrow.png" alt="">Helpful Links</a>
+                        <li class="item4"><a href="#"><img src="/images/arrow.png" alt="">Helpful Links</a>
                             <ul>
                                 <li class="subitem2"><a href="#"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</a></li>
                                 <li class="subitem3"><a href="#">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes </a></li>
                             </ul>
                         </li>
-                        <li class="item5"><a href="#"><img src="../app/views/web/images/arrow.png" alt="">Make A Gift</a>
+                        <li class="item5"><a href="#"><img src="/images/arrow.png" alt="">Make A Gift</a>
                             <ul>
                                 <li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</a></li>
                                 <li class="subitem2"><a href="#"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore</a></li>
