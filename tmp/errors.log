@@ -5152,3 +5152,213 @@
 [2020-02-24 13:27:09] Текст ошибки: syntax error, unexpected 'else' (T_ELSE), expecting end of file | \
         Файл: C:\xampp\htdocs\laravel\ishop2\app\views\Category\view.php | Строка: 51 
 ==============
+[2020-02-25 04:12:13] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 04:24:28] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 04:37:59] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 04:38:02] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 04:53:37] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 05:01:39] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 05:04:19] Текст ошибки: Метод app\controllers\UserController::indexAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-25 05:17:51] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 05:18:18] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 05:18:40] Текст ошибки: Контроллер app\controllers\SignupController не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-02-25 06:13:08] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-25 06:14:33] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-25 06:42:26] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:42:38] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:42:51] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:43:20] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:43:30] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:43:52] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 06:44:07] Текст ошибки: Expected array, string given. | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146 
+==============
+[2020-02-25 07:14:21] Текст ошибки: syntax error, unexpected 'unset' (T_UNSET) | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\views\user\signup.php | Строка: 58 
+==============
+[2020-02-25 07:16:06] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 07:17:02] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 07:47:52] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:18:40] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:18:56] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:19:14] Текст ошибки: Метод app\controllers\CartController::viewAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-25 09:21:54] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:21:54] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:21:54] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:25] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:25] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:25] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:27] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:27] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:22:27] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 09:35:05] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 10:13:50] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 10:14:14] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 10:14:49] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 10:15:19] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-25 10:16:18] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-25 10:17:45] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-25 11:40:36] Текст ошибки: Failed to authenticate on SMTP server with username "smtp_login" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Authentication credentials invalid
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Authentication credentials invalid
+". | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191 
+==============
+[2020-02-25 11:57:22] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 11:57:39] Текст ошибки: Failed to authenticate on SMTP server with username "smtp_login" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Authentication credentials invalid
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Authentication credentials invalid
+". | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191 
+==============
+[2020-02-25 12:01:48] Текст ошибки: Failed to authenticate on SMTP server with username "smtp_login" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=smtp_login@mail.ru
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=smtp_login
+". Authenticator XOAUTH2 returned Expected response code 235 but got code "535", with message "535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=
+". | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191 
+==============
+[2020-02-25 12:07:22] Текст ошибки: Connection could not be established with host smtp.gmail.com :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Строка: 269 
+==============
+[2020-02-25 12:09:36] Текст ошибки: Failed to authenticate on SMTP server with username "smtp_login" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i4sm3664171lfe.75 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i4sm3664171lfe.75 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i4sm3664171lfe.75 - gsmtp
+". | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191 
+==============
+[2020-02-25 12:10:02] Текст ошибки: Connection could not be established with host smtp.gmail.com :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Строка: 269 
+==============
+[2020-02-25 12:12:41] Текст ошибки: Connection could not be established with host ssl://smtp.gmail.com :stream_socket_client(): php_network_getaddresses: getaddrinfo failed: ���� ���� ����������.  | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Строка: 269 
+==============
+[2020-02-25 12:27:47] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:31:00] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:15] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:17] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:17] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:17] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:18] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:18] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:31:21] Текст ошибки: Call to undefined function strlower() | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\widgets\filter\filter_tpl.php | Строка: 3 
+==============
+[2020-02-25 13:42:19] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:42:23] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:42:24] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:42:29] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:43:58] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============
+[2020-02-25 13:44:12] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 45 
+==============

@@ -1046,7 +1046,7 @@ a.mask {
 	line-height: 27px;
 	color: #555555;
 	cursor: pointer;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	font-weight: normal;
 	margin-top: 0;
 }
@@ -1430,8 +1430,8 @@ a.mask {
 .account-bottom {
     margin-top: 2.2em;
 }
-.account-left input[type="text"],.account-left input[type="password"] {
-    width: 90%;
+.account-left input[type="text"],.account-left input[type="password"],.account-left[type="email"] {
+    /*width: 90%;*/
     margin: 0px;
     color: #000;
     background: none;
@@ -3077,8 +3077,8 @@ ul.tag-men {
 	float: left;
 	margin-right: 10px;
 }
-
-#cart table img{
+#cart img,
+.cart table img{
 	height: 50px;
 }
 .del-item {
@@ -3219,3 +3219,45 @@ form .has-error .form-control{
 	margin:-100px 0 0 -100px;
 }
 
+
+.drop > .btn-group > a{
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	top: -2pc;
+}
+
+form .has-success .form-control{
+	border-color: green;
+}
+
+form .has-error .form-control{
+	border-color: red;
+}
+
+.has-error, .has-success{
+	position: relative;
+}
+.form-control-feedback{
+	right: 10px;
+	top: 25px;
+}
+
+.preload{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: #fefefe;
+	opacity: 0.3;
+	/*display: none;*/
+}
+
+.preload img{
+	position: relative;
+	left: 50%;
+	top: 50vh;
+	margin: -100px 0 0 -100px;
+}

@@ -16,6 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
     <script src="/js/jquery-1.11.0.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/validator.js"></script>
     <!--Custom-Theme-files-->
     <!--theme-style-->
     <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -39,20 +40,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <?php new \app\widgets\currency\Currency();?>
                         </select>
                     </div>
-                    <div class="box1">
-                        <select tabindex="4" class="dropdown">
-                            <option value="" class="label">English :</option>
-                            <option value="1">English</option>
-                            <option value="2">French</option>
-                            <option value="3">German</option>
-                        </select>
+
+                    <div class="btn-group">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                             <?php if (!empty($_SESSION['user'])): ?>
+                                <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
+                                <li><a href="/user/logout">Выход</a></li>
+                             <?php else: ?>
+                                <li><a href="/user/login">Вход</a></li>
+                                <li><a href="/user/signup">Регистрация</a></li>
+                            <?php endif; ?>
+                        </ul>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="cart/show" onclick="getCart(); return false;">
+                    <a href="/cart/show" onclick="getCart(); return false;">
                         <div class="total">
                             <img src="/images/cart-1.png" alt="" />
                             <?php if (!empty($_SESSION['cart'])):?>
@@ -112,6 +118,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--bottom-header-->
 <?php //debug($_SESSION);?>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <?php if (isset($_SESSION['error'])):?>
+            <div class="alert alert-danger">
+                <?php echo $_SESSION['error']; unset($_SESSION['error']);?>
+            </div>
+            <?php endif; ?>
+            <?php if (isset($_SESSION['success'])):?>
+                <div class="alert alert-success">
+                    <?php echo $_SESSION['success']; unset($_SESSION['success']);?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
 <?=$content;?>
 
 <!--information-starts-->
@@ -197,7 +219,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!--Slider-Starts-Here-->
-
+<svg
+    class="progress-ring"
+    width="120"
+    height="120">
+    <circle
+        class="progress-ring__circle"
+        stroke="white"
+        stroke-width="4"
+        fill="transparent"
+        r="52"
+        cx="60"
+        cy="60"/>
+</svg>
+<div class="preload"><img src="/images/ring.svg" alt=""></div>
 <?php $curr = \ishop\App::$app->getProperty('currency');?>
 <script>
     var path = '<?=PATH;?>',
