@@ -195,7 +195,8 @@
             </div>
             <div class="col-md-3 single-right">
                 <div class="w_sidebar">
-                    <section  class="sky-form">
+                    <?php new \app\widgets\filter\Filter();?>
+<!--                    <section  class="sky-form">
                         <h4>Catogories</h4>
                         <div class="row1 scroll-pane">
                             <div class="col col-4">
@@ -269,7 +270,7 @@
                                 <label class="radio"><input type="radio" name="radio"><i></i>10 % and above</label>
                             </div>
                         </div>
-                    </section>
+                    </section>-->
                 </div>
             </div>
             <div class="clearfix"> </div>
