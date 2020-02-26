@@ -8,25 +8,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
     <?=$this->getMeta();?>
-    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+    <base href="/">
+    <link rel="shortcut icon" href="images/star.png" type="image/png"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
-    <script src="/js/jquery-1.11.0.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/validator.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.js"></script>
     <!--Custom-Theme-files-->
     <!--theme-style-->
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!--start-menu-->
     <!--dropdown-->
-    <script src="/js/jquery.easydropdown.js"></script>
+    <script src="js/jquery.easydropdown.js"></script>
 </head>
 <body>
 <!--top-header-->
@@ -46,10 +48,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <ul class="dropdown-menu">
                              <?php if (!empty($_SESSION['user'])): ?>
                                 <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
-                                <li><a href="/user/logout">Выход</a></li>
+                                <li><a href="user/logout">Выход</a></li>
                              <?php else: ?>
-                                <li><a href="/user/login">Вход</a></li>
-                                <li><a href="/user/signup">Регистрация</a></li>
+                                <li><a href="user/login">Вход</a></li>
+                                <li><a href="user/signup">Регистрация</a></li>
                             <?php endif; ?>
                         </ul>
                     </div>
@@ -58,9 +60,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="/cart/show" onclick="getCart(); return false;">
+                    <a href="cart/show" onclick="getCart(); return false;">
                         <div class="total">
-                            <img src="/images/cart-1.png" alt="" />
+                            <img src="images/cart-1.png" alt="" />
                             <?php if (!empty($_SESSION['cart'])):?>
                                 <span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left']. $_SESSION['cart.sum'] .
                                     $_SESSION['cart.currency']['symbol_right'];?></span>
@@ -232,7 +234,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         cx="60"
         cy="60"/>
 </svg>
-<div class="preload"><img src="/images/ring.svg" alt=""></div>
+<div class="preloader"><img src="images/ring.svg" alt=""></div>
 <?php $curr = \ishop\App::$app->getProperty('currency');?>
 <script>
     var path = '<?=PATH;?>',
@@ -240,8 +242,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         symbolLeft = '<?=$curr['symbol_left'];?>',
         symbolRight = '<?=$curr['symbol_right'];?>';
 </script>
-<script src="/js/responsiveslides.min.js"></script>
-<script src="/js/typeahead.bundle.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/typeahead.bundle.js"></script>
 <script>
     // You can also use "$(window).load(function() {"
     $(function () {
@@ -262,11 +264,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     });
 </script>
-<script src="/js/main.js"></script>
-<script src="/megamenu/js/megamenu.js"></script>
+<script src="js/main.js"></script>
+<script src="megamenu/js/megamenu.js"></script>
 <!-- FlexSlider -->
-<script src="/js/imagezoom.js"></script>
-<script defer src="/js/jquery.flexslider.js"></script>
+<script src="js/imagezoom.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
 
 <script>
     // Can also be used with $(document).ready()

@@ -3242,8 +3242,8 @@ form .has-error .form-control{
 	right: 10px;
 	top: 25px;
 }
-
-.preload{
+/*
+.preloader{
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -3252,12 +3252,12 @@ form .has-error .form-control{
 	z-index: 9999;
 	background-color: #fefefe;
 	opacity: 0.3;
-	/*display: none;*/
+	display: none;
 }
 
-.preload img{
+.preloader img{
 	position: relative;
 	left: 50%;
 	top: 50vh;
 	margin: -100px 0 0 -100px;
-}
+}*/

@@ -3,13 +3,13 @@
     <div  id="top" class="callbacks_container">
         <ul class="rslides" id="slider4">
             <li>
-                <img src="/images/bnr-1.jpg" alt=""/>
+                <img src="images/bnr-1.jpg" alt=""/>
             </li>
             <li>
-                <img src="/images/bnr-2.jpg" alt=""/>
+                <img src="images/bnr-2.jpg" alt=""/>
             </li>
             <li>
-                <img src="/images/bnr-3.jpg" alt=""/>
+                <img src="images/bnr-3.jpg" alt=""/>
             </li>
         </ul>
     </div>
@@ -25,7 +25,7 @@
             <?php foreach ($brands as $brand):?>
             <div class="col-md-4 about-left">
                 <figure class="effect-bubba">
-                    <img class="img-responsive" src="/images/<?=$brand->img?>" alt=""/>
+                    <img class="img-responsive" src="images/<?=$brand->img?>" alt=""/>
                     <figcaption>
                         <h2><?=$brand->title?></h2>
                         <p><?=$brand->description?></p>
