@@ -18,9 +18,41 @@
 
 <!-- Main content -->
 <section class="content">
-    <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
+            <div class="col-md 12">
+                <div class="box">
+                    <div class="box-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Покупатель</th>
+                                        <th>Статус</th>
+                                        <th>Всего</th>
+                                        <th>Дата создания</th>
+                                        <th>Дата изменения</th>
+                                        <th>Действие</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <?php foreach ($orders as $order):?>
+                                    <tr>
+                                        <td><?=$order->id?></td>
+                                        <td><?=$order->user_id?></td>
+                                        <td><?=$order->id?></td>
+                                        <td><?=$order->id?></td>
+                                        <td><?=$order->id?></td>
+                                        <td><?=$order->id?></td>
+                                        <td><a href="<?=ADMIN;?>/order/view?id=<?=$order->id;?>"><li class="fa fa-fw fa-eye"></li></a></td>
+                                    </tr>
+                                <?php endforeach;?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             <!-- ./col -->
         </div>
         <!-- /.row -->

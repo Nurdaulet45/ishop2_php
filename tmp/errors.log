@@ -7036,3 +7036,6 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | \
 [2020-02-26 13:44:07] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.users' doesn't exist | \
         Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
 ==============
+[2020-02-26 14:11:43] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
