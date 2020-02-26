@@ -16,6 +16,6 @@ $app_path = preg_replace("#[^/]+$#", '', $app_path);
 // http://ishop2/
 
 define("PATH", $app_path);
-define("ADMIN", PATH . '/admin');
+define("ADMIN", PATH . 'admin');
 
 require_once ROOT . '/vendor/autoload.php';
