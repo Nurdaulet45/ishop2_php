@@ -9,8 +9,11 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
+
     <link rel="shortcut icon" href="/images/star.png" type="image/png"/>
     <base href="/adminLte/">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
 
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
@@ -26,12 +29,12 @@
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
-    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-    <!-- summernote -->
-    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-</head>
+<!--    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+-->    <!-- summernote -->
+<!--    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
+-->    <!-- Google Font: Source Sans Pro -->
+<!--    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+--></head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
@@ -160,7 +163,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <a href="<?=PATH;?>" class="brand-link" target="_blank">
             <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                  style="opacity: .8">
             <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -174,15 +177,28 @@
                     <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block">Alexander Pierce</a>
+                    <a href="<?=ADMIN;?>/user/edit?id=<?=$_SESSION['user']['id'];?>" class="d-block"><?=$_SESSION['user']['name'];?></a>
                 </div>
+                <div class="info">
+
+                </div>
+
+
             </div>
+
+
 
             <!-- Sidebar Menu -->
             <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <ul class="sidebar-menu nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
+                    <li class="nav-item">
+                        <a href="/user/logout" class="nav-link ">
+                            <i class="fa fa-logout"></i>
+                            <p>Logout</p>
+                        </a>
+                    </li>
                     <li class="nav-header">Меню</li>
 
 
@@ -192,8 +208,9 @@
                             <p>Home</p>
                         </a>
                     </li>
+
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="<?=ADMIN;?>/order" class="nav-link">
                             <i class="fa fa-shopping-cart"></i>
                             <p>Заказы</p>
                         </a>
@@ -208,12 +225,12 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN;?>/category" class="nav-link">
                                     <p>Список категорий</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN;?>/category/add" class="nav-link">
                                     <p>Добавить категорию</p>
                                 </a>
                             </li>
@@ -244,7 +261,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="<?=ADMIN;?>/cache" class="nav-link">
                             <i class="fa fa-database"></i>
                             <p>Кэширование</p>
                         </a>
@@ -279,6 +296,16 @@
         <!-- Main content -->
         <section class="content">
             <div class="container-fluid">
+                <?php if (isset($_SESSION['error'])):?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['error']; unset($_SESSION['error']);?>
+                    </div>
+                <?php endif; ?>
+                <?php if (isset($_SESSION['success'])):?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset($_SESSION['success']);?>
+                    </div>
+                <?php endif; ?>
                 <?=$content;?>
             </div><!-- /.container-fluid -->
         </section>
@@ -315,31 +342,32 @@
     $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>-->
 <!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<!--<script src="plugins/chart.js/Chart.min.js"></script>-->
 <!-- Sparkline -->
-<script src="plugins/sparklines/sparkline.js"></script>
+<!--<script src="plugins/sparklines/sparkline.js"></script>-->
 <!-- JQVMap -->
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!--<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>-->
 <!-- jQuery Knob Chart -->
-<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!--<script src="plugins/jquery-knob/jquery.knob.min.js"></script>-->
 <!-- daterangepicker -->
-<script src="plugins/moment/moment.min.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!--<script src="plugins/moment/moment.min.js"></script>-->
+<!--<script src="plugins/daterangepicker/daterangepicker.js"></script>-->
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!--<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>-->
 <!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!--<script src="plugins/summernote/summernote-bs4.min.js"></script>-->
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!--<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>-->
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
+<script src="my.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
+<!--<script src="dist/js/pages/dashboard.js"></script>-->
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<!--<script src="dist/js/demo.js"></script>-->
 <?php $logs = \R :: getDatabaseAdapter ()
     -> getDatabase ()
     -> getLogger ();

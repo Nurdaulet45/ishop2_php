@@ -24,6 +24,8 @@ class AppController extends Controller
         //debug(App::$app->getProperty('cats'));
     }
 
+
+
     public static function cacheCategory(){
         $cache = Cache::instance();
         $cats = $cache->get('cats');

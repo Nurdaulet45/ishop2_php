@@ -4,9 +4,14 @@
     <list default="true" id="5d8acb1e-1c52-4072-b0ca-b2323dc5b407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/AppModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/AppModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/order/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/order/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/adminLte/build/scss/_bootstrap-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminLte/build/scss/_bootstrap-variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminLte/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminLte/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminLte/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminLte/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +64,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public\menu" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\admin\User" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\admin\Main" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\config" />
+      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\Cart" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\images" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\js" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\fonts" />
       <recent name="C:\xampp\htdocs\laravel\ishop2\public\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\admin\User" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\app\views\admin\Main" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\config" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public" />
-      <recent name="C:\xampp\htdocs\laravel\ishop2\public\megamenu-js-master" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -111,7 +116,8 @@
       <workItem from="1582513962934" duration="29346000" />
       <workItem from="1582547866270" duration="128000" />
       <workItem from="1582600266855" duration="32475000" />
-      <workItem from="1582687297436" duration="33002000" />
+      <workItem from="1582687297436" duration="33114000" />
+      <workItem from="1582773490376" duration="34500000" />
     </task>
     <servers />
   </component>
@@ -143,30 +149,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="218" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582618207444" />
-    <state x="1170" y="256" key="FileChooserDialogImpl" timestamp="1582709894663">
+    <state x="1170" y="256" key="FileChooserDialogImpl" timestamp="1582803015187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582709894663" />
-    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582721378849">
+    <state x="1170" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582803015187" />
+    <state x="727" y="335" key="NewPhpClassDialog" timestamp="1582807793035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582721378849" />
-    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582721459109">
+    <state x="727" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582807793035" />
+    <state x="1321" y="505" key="NewPhpFileDialog" timestamp="1582807863293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582721459109" />
+    <state x="1321" y="505" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582807863293" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582261433644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582261433644" />
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582687299399">
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog" timestamp="1582773616147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582687299399" />
-    <state x="662" y="252" width="607" height="536" key="find.popup" timestamp="1582719884832">
+    <state x="1183" y="406" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582773616147" />
+    <state x="662" y="252" width="607" height="536" key="find.popup" timestamp="1582798620609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582719884832" />
+    <state x="662" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582798620609" />
     <state x="756" y="487" key="run.anything.popup" timestamp="1582634039986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
