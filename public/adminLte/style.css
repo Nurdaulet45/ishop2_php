@@ -1,0 +1,14 @@
+.pagination {
+    margin: 8px 0;
+}
+.pagination-lg > li > a, .pagination-lg > li > span {
+    padding: 7px 12px;
+    font-size: 15px;
+}
+.order_success {
+    background-color: #71e8b7;
+}
+
+.view_id a{
+    color: #0AA5E2;
+}

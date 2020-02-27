@@ -7039,3 +7039,210 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | \
 [2020-02-26 14:11:43] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | \
         Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
 ==============
+[2020-02-27 04:20:22] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 04:20:22] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 04:25:10] Текст ошибки: Too few arguments to function ishop\libs\Pagination::__construct(), 2 passed in C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\OrderController.php on line 16 and exactly 3 expected | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\libs\Pagination.php | Строка: 15 
+==============
+[2020-02-27 04:25:10] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 04:30:23] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 04:30:46] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 04:48:15] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'on clause' | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 04:59:38] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 05:17:12] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:17:14] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:24:05] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:24:07] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:24:11] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:15] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:16] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:44] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:47] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:49] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:51] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 05:46:52] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 06:01:20] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 06:11:53] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:11:57] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:12:10] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:19:16] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order.*' in 'field list' | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 06:19:46] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order. * ' in 'field list' | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 06:19:50] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order. * ' in 'field list' | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 06:20:20] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:20:25] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:20:34] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:20:47] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:24:20] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:24:25] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:25:45] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:26:44] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 06:26:48] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 06:27:04] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:27:07] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:27:26] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:27:28] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:27:43] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 34 
+==============
+[2020-02-27 06:27:44] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 34 
+==============
+[2020-02-27 06:29:00] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:29:03] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:30:03] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:30:29] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:30:59] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:31:49] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:31:52] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/view.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-02-27 06:31:55] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\OrderController.php | Строка: 38 
+==============
+[2020-02-27 06:34:17] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\OrderController.php | Строка: 38 
+==============
+[2020-02-27 07:05:29] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 07:13:46] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:15:04] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:15:06] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:15:08] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:31:34] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:31:36] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:35:39] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:36:52] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:36:54] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:38:08] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:38:29] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:39:15] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:54:31] Текст ошибки: Метод app\controllers\admin\OrderController::changeAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:54:37] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:59:53] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 07:59:57] Текст ошибки: Метод app\controllers\admin\OrderController::changeAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 08:05:19] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/change.php | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
+==============

@@ -30,7 +30,7 @@
                                         <th>ID</th>
                                         <th>Покупатель</th>
                                         <th>Статус</th>
-                                        <th>Всего</th>
+                                        <th>Сумма</th>
                                         <th>Дата создания</th>
                                         <th>Дата изменения</th>
                                         <th>Действие</th>
@@ -38,18 +38,25 @@
                                 </thead>
                                 <tbody>
                                 <?php foreach ($orders as $order):?>
-                                    <tr>
-                                        <td><?=$order->id?></td>
-                                        <td><?=$order->user_id?></td>
-                                        <td><?=$order->id?></td>
-                                        <td><?=$order->id?></td>
-                                        <td><?=$order->id?></td>
-                                        <td><?=$order->id?></td>
-                                        <td><a href="<?=ADMIN;?>/order/view?id=<?=$order->id;?>"><li class="fa fa-fw fa-eye"></li></a></td>
+                                <?php $class = $order['status'] ? 'order_success': '';?>
+                                    <tr class="<?=$class;?>">
+                                        <td><?=$order['id'];?></td>
+                                        <td><?=$order['name'];?></td>
+                                        <td><?=$order['status'] ? 'Завершен' : 'Новый' ;?></td>
+                                        <td><?=$order['sum'];?> <?=$order['currency'];?></td>
+                                        <td><?=$order['date'];?></td>
+                                        <td><?=$order['update_at'];?></td>
+                                        <td class="view_id"><a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><li class="fa fa-fw fa-eye"></li></a></td>
                                     </tr>
                                 <?php endforeach;?>
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="text-center">
+                            <p><?=count($orders);?> заказa(ов) из <?=$count;?></p>
+                            <?php if ($pagination->countPages > 1):?>
+                                <?=$pagination;?>
+                            <?php endif;?>
                         </div>
                     </div>
                 </div>
