@@ -58,4 +58,12 @@ class OrderController extends AppController
         redirect();
     }
 
+    public function deleteAction(){
+        $order_id = $this->getRequestId();
+        $order = \R::load('order', $order_id);
+        \R::trash($order);
+
+        $_SESSION['success'] = 'Заказ удален';
+        redirect(ADMIN . '/order');
+    }
 }

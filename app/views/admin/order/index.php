@@ -46,7 +46,10 @@
                                         <td><?=$order['sum'];?> <?=$order['currency'];?></td>
                                         <td><?=$order['date'];?></td>
                                         <td><?=$order['update_at'];?></td>
-                                        <td class="view_id"><a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><li class="fa fa-fw fa-eye"></li></a></td>
+                                        <td class="view_id">
+                                            <a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><li class="fa fa-fw fa-eye"></li></a>
+                                            <a class="delete" href="<?=ADMIN;?>/order/delete?id=<?=$order['id'];?>"> <i class="fas fa-times text-danger"></i></a>
+                                        </td>
                                     </tr>
                                 <?php endforeach;?>
                                 </tbody>

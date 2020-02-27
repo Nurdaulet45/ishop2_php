@@ -7246,3 +7246,117 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | \
 [2020-02-27 08:05:19] Текст ошибки: Не найден вид C:\xampp\htdocs\laravel\ishop2/app/views/admin\Order/change.php | \
         Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\base\View.php | Строка: 41 
 ==============
+[2020-02-27 08:58:37] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:00:12] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:02:04] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:03:08] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:05:29] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:06:49] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:07:02] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:07:05] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:07:17] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:08:14] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 38 
+==============
+[2020-02-27 09:15:48] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 10:19:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Array -- keep-cache' at line 1 | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 10:21:28] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Array -- keep-cache' at line 1 | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 10:21:50] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Array -- keep-cache' at line 1 | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 10:24:59] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 10:25:48] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 10:26:02] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 12:05:12] Текст ошибки: syntax error, unexpected 'данные' (T_STRING) | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\CategoryController.php | Строка: 46 
+==============
+[2020-02-27 12:05:17] Текст ошибки: syntax error, unexpected 'данные' (T_STRING) | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\CategoryController.php | Строка: 46 
+==============
+[2020-02-27 12:05:22] Текст ошибки: syntax error, unexpected 'данные' (T_STRING) | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\CategoryController.php | Строка: 46 
+==============
+[2020-02-27 12:10:37] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id' cannot be null | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-02-27 12:27:17] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 12:27:34] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 12:29:18] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 12:29:18] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 13:04:08] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 13:21:00] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 13:21:00] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 13:23:33] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 13:25:56] Текст ошибки: Страница не найдено | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\app\controllers\admin\AppController.php | Строка: 33 
+==============
+[2020-02-27 13:43:32] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 13:43:32] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 13:44:17] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 14:05:38] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 14:05:39] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 14:05:41] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 14:06:20] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============
+[2020-02-27 14:06:45] Текст ошибки: Страница не найдена | \
+        Файл: C:\xampp\htdocs\laravel\ishop2\vendor\ishop\core\Router.php | Строка: 44 
+==============

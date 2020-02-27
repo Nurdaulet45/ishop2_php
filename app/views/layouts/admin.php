@@ -190,7 +190,7 @@
 
             <!-- Sidebar Menu -->
             <nav class="mt-2">
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <ul class="sidebar-menu nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item">
@@ -210,7 +210,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="<?=ADMIN;?>/order" class="nav-link">
                             <i class="fa fa-shopping-cart"></i>
                             <p>Заказы</p>
                         </a>
@@ -225,12 +225,12 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN;?>/category" class="nav-link">
                                     <p>Список категорий</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN;?>/category/add" class="nav-link">
                                     <p>Добавить категорию</p>
                                 </a>
                             </li>
@@ -261,7 +261,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="<?=ADMIN;?>/cache" class="nav-link">
                             <i class="fa fa-database"></i>
                             <p>Кэширование</p>
                         </a>
