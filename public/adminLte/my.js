@@ -12,3 +12,4 @@ $('.sidebar-menu a.nav-link').each(function () {
         $(this).closest('treeview').addClass('active');
     }
 });
+

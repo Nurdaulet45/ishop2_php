@@ -9,11 +9,12 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="/images/star.png" type="image/png"/>
     <base href="/adminLte/">
     <link href="style.css" rel="stylesheet" type="text/css" media="all" />
-
 
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
@@ -247,12 +248,12 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN?>/product" class="nav-link">
                                     <p>Список товаров</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?=ADMIN?>/product/add" class="nav-link">
                                     <p>Добавить товар</p>
                                 </a>
                             </li>
@@ -266,11 +267,28 @@
                             <p>Кэширование</p>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
+
+                    <li class="nav-item has-treeview">
+                        <a href="<?=ADMIN;?>/user" class="nav-link">
                             <i class="fa fa-users"></i>
-                            <p>Пользователи</p>
+                            <p>
+                                Пользователи
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
                         </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="<?=ADMIN;?>/user" class="nav-link">
+                                    <p>Список пользователей</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?=ADMIN;?>/user/add" class="nav-link">
+                                    <p>Добавить пользователя</p>
+                                </a>
+                            </li>
+                        </ul>
+
                     </li>
 
 
@@ -363,6 +381,12 @@
 <!--<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>-->
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckeditor/adapters/jquery.js"></script>
+<script>$(function () {
+
+    $('#editor1').ckeditor()
+    })</script>
 <script src="my.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <!--<script src="dist/js/pages/dashboard.js"></script>-->
