@@ -12,9 +12,10 @@ class Filter
     public $groups;
     public $attrs;
     public $tpl;
-    public function __construct()
+    public $filter;
+    public function __construct($filter = null, $tpl = '')
     {
-        $this->tpl = __DIR__ . '/filter_tpl.php';
+        $this->tpl = $tpl ?: __DIR__ . '/filter_tpl.php';
         $this->run();
     }
 
@@ -42,7 +43,6 @@ class Filter
         $filter = Filter::getFilter();
         if (!empty($filter)){
             $filter = explode(',', $filter);
-
         }
         require $this->tpl;
         return ob_get_clean();
@@ -59,7 +59,6 @@ class Filter
             $attrs[$v['attr_group_id']][$k] = $v['value'];
         }
         return $attrs;
-
     }
 
     public static function getFilter(){
