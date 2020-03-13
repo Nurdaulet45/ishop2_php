@@ -112,6 +112,11 @@
 
                         <?php new \app\widgets\filter\Filter(null, WWW . '/filter/admin_filter_tpl.php');?>
 
+
+                        <div class="form-group">
+                            <label for="related">Связанные товары</label>
+                            <select name="related[]" id="related" class="form-control select2" multiple></select>
+                        </div>
                     </div>
                     <div class="box-footer">
                         <button type="submit" class=" btn btn-success">Добавить</button>
